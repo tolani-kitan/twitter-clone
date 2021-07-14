@@ -28,7 +28,7 @@ const Tweets = (props) => {
 
   useEffect(() => {
     getPost();
-  });
+  }, []);
 
   return (
     <Feeds>
